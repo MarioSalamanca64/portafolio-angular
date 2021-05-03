@@ -64,3 +64,88 @@
 }
 
 
+/* codigo externo targetas*/
+#a{
+    text-decoration: none;
+    border: none;
+    transition: all 2s;
+}
+#formacion{
+    text-align: center;
+    font-size: 30px;
+    transition: all 2s;
+    overflow: hidden;
+    
+    
+}
+#Tecnologias{
+    height: 125px;
+    text-decoration: none; 
+    image-rendering: auto;
+    background-repeat: no-repeat;
+   
+    
+}
+#card{
+     /* border-radius:30%; */
+    transition: all 2s;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    
+}
+#card:hover{
+    background-image: url(/assets/imagenes/paletaazul.png);
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    animation: showicon 1000ms linear;
+   
+    
+    
+}
+@keyframes showicon{
+    0%{
+        opacity: 0.1;
+    }
+    25%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#HTML{
+   margin-top: 20px;
+   width: 100px;
+   height: 100px;
+   text-decoration: none;
+    
+   
+}
+#HTML:hover{
+    text-decoration: none;
+    border: none;
+    
+}
+#html{
+    color: black;
+    margin-top:50px;
+    margin-left:30%;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 2s;
+    
+}
+#html:hover{
+    color: white;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
